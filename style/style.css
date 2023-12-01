@@ -1,0 +1,58 @@
+/* style.css */
+
+/* Form container */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Column layout */
+.stColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Optional: Add some spacing between form elements */
+form > * {
+    margin-bottom: 10px;
+}
+
+/* Optional: Adjust form width based on your layout */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Optional: Center the form in the column */
+.stColumn {
+    justify-content: center;
+    text-align: center;
+}
