@@ -1,4 +1,1 @@
-streamlit
-requests 
-streamlit-lottie
-st_lottie
+streamlit==<1.29.0>
